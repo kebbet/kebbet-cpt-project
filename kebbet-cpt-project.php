@@ -16,7 +16,7 @@ namespace cpt\kebbet\project;
 const POSTTYPE = 'project';
 const SLUG     = 'projekt';
 const ICON     = 'pressthis';
-const MENUPOS  = 6;
+const MENUPOS  = 21;
 
 /**
  * Link to ICONS
