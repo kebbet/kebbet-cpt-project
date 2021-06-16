@@ -17,6 +17,7 @@ const POSTTYPE = 'project';
 const SLUG     = 'projekt';
 const ICON     = 'pressthis';
 const MENUPOS  = 21;
+const THUMBNAIL = true;
 
 /**
  * Link to ICONS
@@ -30,6 +31,9 @@ const MENUPOS  = 21;
 function init() {
 	load_textdomain();
 	register();
+	if ( true === THUMBNAIL ) {
+		add_theme_support( 'post-thumbnails' );
+	}
 }
 add_action( 'init', __NAMESPACE__ . '\init', 0 );
 
@@ -97,13 +101,18 @@ function register() {
 		'item_scheduled'           => __( 'Post scheduled', 'kebbet-cpt-project' ),
 		'item_updated'             => __( 'Post updated', 'kebbet-cpt-project' ),
 	);
-	$supports_args     = array(
+
+	$supports_args = array(
 		'author',
 		'title',
 		'editor',
-		'thumbnail',
 		'page-attributes',
 	);
+
+	if ( true === THUMBNAIL ) {
+		$supports_args = array_merge( $supports_args, array( 'thumbnail' ) );
+	}
+
 	$rewrite_args      = array(
 		'slug'       => SLUG,
 		'with_front' => false,
