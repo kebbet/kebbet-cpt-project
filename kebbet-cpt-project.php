@@ -100,6 +100,10 @@ function register() {
 		'item_reverted_to_draft'   => __( 'Post reverted to Draft', 'kebbet-cpt-project' ),
 		'item_scheduled'           => __( 'Post scheduled', 'kebbet-cpt-project' ),
 		'item_updated'             => __( 'Post updated', 'kebbet-cpt-project' ),
+		// 5.7 + 5.8
+		'filter_by_date'           => __( 'Filter posts by date', 'kebbet-cpt-project' ),
+		'item_link'                => __( 'Project post link', 'kebbet-cpt-project' ),
+		'item_link_description'    => __( 'A link to a project post', 'kebbet-cpt-project' ),
 	);
 
 	$supports_args = array(
