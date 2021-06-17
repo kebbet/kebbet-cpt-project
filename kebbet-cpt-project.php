@@ -68,7 +68,7 @@ function load_textdomain() {
 function register() {
 
 	$labels_args       = array(
-		'name'                     => _x( 'Project', 'Post Type General Name', 'kebbet-cpt-project' ),
+		'name'                     => _x( 'Projects', 'Post Type General Name', 'kebbet-cpt-project' ),
 		'singular_name'            => _x( 'Project', 'Post Type Singular Name', 'kebbet-cpt-project' ),
 		'menu_name'                => __( 'Project', 'kebbet-cpt-project' ),
 		'name_admin_bar'           => __( 'Project-post', 'kebbet-cpt-project' ),
@@ -134,11 +134,11 @@ function register() {
 	);
 	$post_type_args    = array(
 		'label'               => __( 'Project post type', 'kebbet-cpt-project' ),
-		'description'         => __( 'Custom post type for project', 'kebbet-cpt-project' ),
+		'description'         => __( 'Custom post type for projects', 'kebbet-cpt-project' ),
 		'labels'              => $labels_args,
 		'supports'            => $supports_args,
 		'taxonomies'          => array(),
-		'hierarchical'        => false,
+		'hierarchical'        => true,
 		'public'              => true,
 		'show_ui'             => true,
 		'show_in_menu'        => true,

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: Project\n"
-"POT-Creation-Date: 2021-06-17 09:05+0200\n"
-"PO-Revision-Date: 2021-06-17 09:05+0200\n"
+"POT-Creation-Date: 2021-06-17 10:47+0200\n"
+"PO-Revision-Date: 2021-06-17 10:47+0200\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: sv_SE\n"
@@ -43,7 +43,7 @@ msgstr[1] "%s projektinlägg"
 
 #: kebbet-cpt-project.php:71
 msgctxt "Post Type General Name"
-msgid "Project"
+msgid "Projects"
 msgstr "Projekt"
 
 #: kebbet-cpt-project.php:72
@@ -184,7 +184,7 @@ msgid "Project post type"
 msgstr "Inläggstyp för projekt"
 
 #: kebbet-cpt-project.php:137
-msgid "Custom post type for project"
+msgid "Custom post type for projects"
 msgstr "Anpassad inläggstyp för projekt"
 
 #: kebbet-cpt-project.php:199 kebbet-cpt-project.php:202
@@ -274,11 +274,11 @@ msgid_plural "%$2s posts restored from the Trash."
 msgstr[0] "%$1s inlägg återställdes från papperskorgen."
 msgstr[1] "%$2s inlägg återställdes från papperskorgen."
 
-#: kebbet-cpt-project.php:286
+#: kebbet-cpt-project.php:285
 msgid "Project archive settings"
 msgstr "Inställningar för projektarkiv"
 
-#: kebbet-cpt-project.php:287
+#: kebbet-cpt-project.php:286
 msgid "Archive settings for projects"
 msgstr "Arkivinställningar för projekt"
 
