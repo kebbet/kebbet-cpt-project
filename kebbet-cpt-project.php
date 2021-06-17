@@ -282,8 +282,7 @@ require_once plugin_dir_path( __FILE__ ) . 'inc/admin-columns.php';
 function add_options_page() {
 	if ( function_exists( 'acf_add_options_page' ) ) {
 		acf_add_options_sub_page( array(
-
-			'page_title' => __( 'Archive settings', 'kebbet-cpt-project' ),
+			'page_title' => __( 'Project archive settings', 'kebbet-cpt-project' ),
 			'menu_title' => __( 'Archive settings for projects', 'kebbet-cpt-project' ),
 			'parent'     => 'edit.php?post_type=' . POSTTYPE,
 			'post_id'    => POSTTYPE,
