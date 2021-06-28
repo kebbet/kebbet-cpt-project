@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Kebbet plugins - Custom Post Type: Project
- * Plugin URI:  
+ * Plugin URI:  https://github.com/kebbet/kebbet-cpt-project
  * Description: Registers a Custom Post Type.
  * Version:     20210627.01
  * Author:      Erik Betshammar
