@@ -3,21 +3,22 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: Project
  * Plugin URI:  https://github.com/kebbet/kebbet-cpt-project
  * Description: Registers a Custom Post Type.
- * Version:     20210627.01
+ * Version:     20210704.01
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
  *
  * @package kebbet-cpt-project
  * @author Erik Betshammar
-*/
+ */
 
 namespace cpt\kebbet\project;
 
-const POSTTYPE = 'project';
-const SLUG     = 'projekt';
-const ICON     = 'pressthis';
-const MENUPOS  = 21;
-const THUMBNAIL = true;
+const POSTTYPE    = 'project';
+const SLUG        = 'projekt';
+const ICON        = 'pressthis';
+const MENUPOS     = 21;
+const THUMBNAIL   = true;
+const ARCHIVE_OPT = false;
 
 /**
  * Link to ICONS
@@ -147,7 +148,7 @@ function register() {
 		'show_in_admin_bar'   => true,
 		'show_in_nav_menus'   => true,
 		'can_export'          => true,
-		'has_archive'         => SLUG,
+		'has_archive'         => false,
 		'exclude_from_search' => false,
 		'publicly_queryable'  => true,
 		'rewrite'             => $rewrite_args,
@@ -297,4 +298,7 @@ function add_options_page() {
 		) );
 	}
 }
-add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+
+if ( true === ARCHIVE_OPT ) {
+	add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+}
