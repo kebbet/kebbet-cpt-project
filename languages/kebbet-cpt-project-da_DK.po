@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: Project\n"
-"POT-Creation-Date: 2021-08-11 14:31+0200\n"
-"PO-Revision-Date: 2021-08-11 14:35+0200\n"
+"POT-Creation-Date: 2022-02-17 09:21+0100\n"
+"PO-Revision-Date: 2022-02-17 09:22+0100\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: da_DK\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Last modified"
 msgstr "Sidst ændret"
 
-#: inc/admin-columns.php:40 kebbet-cpt-project.php:88
+#: inc/admin-columns.php:40 kebbet-cpt-project.php:89
 msgid "Featured image"
 msgstr "Fremhævet billede"
 
@@ -41,244 +41,249 @@ msgid_plural "%s project posts"
 msgstr[0] "%s projektindlæg"
 msgstr[1] "%s projektindlæg"
 
-#: kebbet-cpt-project.php:72
+#: kebbet-cpt-project.php:73
 msgctxt "Post Type General Name"
 msgid "Projects"
 msgstr "Projekter"
 
-#: kebbet-cpt-project.php:73
+#: kebbet-cpt-project.php:74
 msgctxt "Post Type Singular Name"
 msgid "Project"
 msgstr "Projekt"
 
-#: kebbet-cpt-project.php:74
+#: kebbet-cpt-project.php:75
 msgid "Project"
 msgstr "Projekt"
 
-#: kebbet-cpt-project.php:75
+#: kebbet-cpt-project.php:76
 msgid "Project-post"
 msgstr "Projektindlæg"
 
-#: kebbet-cpt-project.php:76
+#: kebbet-cpt-project.php:77
 msgid "Parent post:"
 msgstr "Overordnet indlæg:"
 
-#: kebbet-cpt-project.php:77
+#: kebbet-cpt-project.php:78
 msgid "All posts"
 msgstr "Alle indlæg"
 
-#: kebbet-cpt-project.php:78
+#: kebbet-cpt-project.php:79
 msgid "Add new"
 msgstr "Tilføj ny"
 
-#: kebbet-cpt-project.php:79
+#: kebbet-cpt-project.php:80
 msgid "Add new post"
 msgstr "Tilføj nyt indlæg"
 
-#: kebbet-cpt-project.php:80
+#: kebbet-cpt-project.php:81
 msgid "New post"
 msgstr "Nyt indlæg"
 
-#: kebbet-cpt-project.php:81
+#: kebbet-cpt-project.php:82
 msgid "Edit post"
 msgstr "Rediger indlæg"
 
-#: kebbet-cpt-project.php:82
+#: kebbet-cpt-project.php:83
 msgid "Update post"
 msgstr "Opdater indlæg"
 
-#: kebbet-cpt-project.php:83
+#: kebbet-cpt-project.php:84
 msgid "View post"
 msgstr "Vis indlæg"
 
-#: kebbet-cpt-project.php:84
+#: kebbet-cpt-project.php:85
 msgid "View posts"
 msgstr "Vis indlæg"
 
-#: kebbet-cpt-project.php:85
+#: kebbet-cpt-project.php:86
 msgid "Search posts"
 msgstr "Søg indlæg"
 
-#: kebbet-cpt-project.php:86
+#: kebbet-cpt-project.php:87
 msgid "Not found"
 msgstr "Ikke fundet"
 
-#: kebbet-cpt-project.php:87
+#: kebbet-cpt-project.php:88
 msgid "No posts found in Trash"
 msgstr "Der blev ikke fundet nogen indlæg i papirkurven"
 
-#: kebbet-cpt-project.php:89
+#: kebbet-cpt-project.php:90
 msgid "Set featured image"
 msgstr "Vælg som fremhævet billede"
 
-#: kebbet-cpt-project.php:90
+#: kebbet-cpt-project.php:91
 msgid "Remove featured image"
 msgstr "Fjern fremhævet billede"
 
-#: kebbet-cpt-project.php:91
+#: kebbet-cpt-project.php:92
 msgid "Use as featured image"
 msgstr "Brug som fremhævet billede"
 
-#: kebbet-cpt-project.php:92
+#: kebbet-cpt-project.php:93
 msgid "Insert into item"
 msgstr "Indsæt"
 
-#: kebbet-cpt-project.php:93
+#: kebbet-cpt-project.php:94
 msgid "Uploaded to this post"
 msgstr "Uploadet til dette indlæg"
 
-#: kebbet-cpt-project.php:94
+#: kebbet-cpt-project.php:95
 msgid "Items list"
 msgstr ""
 
-#: kebbet-cpt-project.php:95
+#: kebbet-cpt-project.php:96
 msgid "Items list navigation"
 msgstr ""
 
-#: kebbet-cpt-project.php:96
+#: kebbet-cpt-project.php:97
 msgid "Filter items list"
 msgstr ""
 
-#: kebbet-cpt-project.php:97
+#: kebbet-cpt-project.php:98
 msgid "Project-posts archive"
 msgstr "Arkiv over projektindlæg"
 
-#: kebbet-cpt-project.php:98
+#: kebbet-cpt-project.php:99
 msgid "Project-post attributes"
 msgstr "Attributter for projektindlæg"
 
-#: kebbet-cpt-project.php:99
+#: kebbet-cpt-project.php:100
 msgid "Post published"
 msgstr "Indlæg udgivet"
 
-#: kebbet-cpt-project.php:100
+#: kebbet-cpt-project.php:101
 msgid "Post published privately"
 msgstr "Indlæg udgivet privat"
 
-#: kebbet-cpt-project.php:101
+#: kebbet-cpt-project.php:102
 msgid "Post reverted to Draft"
 msgstr "Indlæg tilbageført til kladde"
 
-#: kebbet-cpt-project.php:102
+#: kebbet-cpt-project.php:103
 msgid "Post scheduled"
 msgstr "Indlæg planlagt"
 
-#: kebbet-cpt-project.php:103
+#: kebbet-cpt-project.php:104
 msgid "Post updated"
 msgstr "Indlæg opdateret"
 
-#: kebbet-cpt-project.php:105
+#: kebbet-cpt-project.php:106
 msgid "Filter posts by date"
 msgstr "Filtrere indlæg efter dato"
 
-#: kebbet-cpt-project.php:106
+#: kebbet-cpt-project.php:107
 msgid "Project post link"
 msgstr ""
 
-#: kebbet-cpt-project.php:107
+#: kebbet-cpt-project.php:108
 msgid "A link to a project post"
 msgstr "Et link til et projektindlæg"
 
-#: kebbet-cpt-project.php:137
+#: kebbet-cpt-project.php:138
 msgid "Project post type"
 msgstr "Projektindlægtype"
 
-#: kebbet-cpt-project.php:138
+#: kebbet-cpt-project.php:139
 msgid "Custom post type for projects"
 msgstr "Brugerdefineret indlægstype for projekter"
 
-#: kebbet-cpt-project.php:208 kebbet-cpt-project.php:211
+#: kebbet-cpt-project.php:209 kebbet-cpt-project.php:212
 msgid "Post updated."
 msgstr "Indlæg opdateret."
 
-#: kebbet-cpt-project.php:209
+#: kebbet-cpt-project.php:210
 msgid "Custom field updated."
 msgstr "Brugerdefineret felt opdateret."
 
-#: kebbet-cpt-project.php:210
+#: kebbet-cpt-project.php:211
 msgid "Custom field deleted."
 msgstr "Brugerdefineret felt slettet."
 
 #. translators: %s: date and time of the revision
-#: kebbet-cpt-project.php:213
+#: kebbet-cpt-project.php:214
 #, php-format
 msgid "Post restored to revision from %s"
 msgstr ""
 
-#: kebbet-cpt-project.php:214
+#: kebbet-cpt-project.php:215
 msgid "Post published."
 msgstr "Indlæg udgivet."
 
-#: kebbet-cpt-project.php:215
+#: kebbet-cpt-project.php:216
 msgid "Post saved."
 msgstr "Indlæg gemt."
 
-#: kebbet-cpt-project.php:216
+#: kebbet-cpt-project.php:217
 msgid "Post submitted."
 msgstr "Indlæg indsendt."
 
 #. translators: %1$s: date and time of the scheduled post
-#: kebbet-cpt-project.php:219
+#: kebbet-cpt-project.php:220
 #, php-format
 msgid "Post scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
-#: kebbet-cpt-project.php:220
+#: kebbet-cpt-project.php:221
 msgid "M j, Y @ G:i"
 msgstr ""
 
-#: kebbet-cpt-project.php:222
+#: kebbet-cpt-project.php:223
 msgid "Post draft updated."
 msgstr "Indlægskladde opdateret."
 
-#: kebbet-cpt-project.php:230
+#: kebbet-cpt-project.php:231
 msgid "View Post"
 msgstr "Vis indlæg"
 
-#: kebbet-cpt-project.php:236
+#: kebbet-cpt-project.php:237
 msgid "Preview Post"
 msgstr "Forhåndsvis indlægget"
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:262
-msgid "%$1s post updated."
-msgid_plural "%$2s posts updated."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:263
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s indlæg opdateret."
+msgstr[1] "%s indlæg opdateret."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:264
-msgid "%$1s post not updated, somebody is editing it."
-msgid_plural "%$2s posts not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:265
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s indlæg ikke opdateret, nogen redigerer det."
+msgstr[1] "%s indlæg ikke opdateret, nogen redigerer dem."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:266
-msgid "%$1s post permanently deleted."
-msgid_plural "%$2s posts permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:267
+#, php-format
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] "%s indlæg slettet permanent."
+msgstr[1] "%s indlæg slettet permanent."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:268
-msgid "%$1s post moved to the Trash."
-msgid_plural "%$2s posts moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:269
+#, php-format
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] "%s indlæg flyttet til papirkurven."
+msgstr[1] "%s indlæg flyttet til papirkurven."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:270
-msgid "%$1s post restored from the Trash."
-msgid_plural "%$2s posts restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:271
+#, php-format
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] "%s indlæg gendannet fra papirkurven."
+msgstr[1] "%s indlæg gendannet fra papirkurven."
 
-#: kebbet-cpt-project.php:294
+#: kebbet-cpt-project.php:295
 msgid "Project archive settings"
 msgstr ""
 
-#: kebbet-cpt-project.php:295
+#: kebbet-cpt-project.php:296
 msgid "Archive settings for projects"
 msgstr ""
 
