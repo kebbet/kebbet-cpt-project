@@ -15,8 +15,8 @@
 namespace cpt\kebbet\project;
 
 const POSTTYPE    = 'project';
-const SLUG        = 'projekt';
-const ICON        = 'pressthis';
+const SLUG        = 'project';
+const ICON        = 'format-gallery';
 const MENUPOS     = 21;
 const THUMBNAIL   = true;
 const ARCHIVE_OPT = false;
