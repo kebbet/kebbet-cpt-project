@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: Project\n"
-"POT-Creation-Date: 2021-06-17 10:47+0200\n"
-"PO-Revision-Date: 2021-06-17 10:47+0200\n"
+"POT-Creation-Date: 2022-08-25 13:56+0200\n"
+"PO-Revision-Date: 2022-08-25 13:57+0200\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
-"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: kebbet-cpt-project.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -25,11 +25,11 @@ msgstr ""
 msgid "Last modified"
 msgstr "Senast ändrat"
 
-#: inc/admin-columns.php:40 kebbet-cpt-project.php:87
+#: inc/admin-columns.php:40 kebbet-cpt-project.php:89
 msgid "Featured image"
 msgstr "Utvald bild"
 
-#: inc/admin-columns.php:71
+#: inc/admin-columns.php:72
 msgid "No image is set."
 msgstr "Ingen bild har ställts in."
 
@@ -41,250 +41,260 @@ msgid_plural "%s project posts"
 msgstr[0] "%s projektinlägg"
 msgstr[1] "%s projektinlägg"
 
-#: kebbet-cpt-project.php:71
+#: kebbet-cpt-project.php:73
 msgctxt "Post Type General Name"
 msgid "Projects"
 msgstr "Projekt"
 
-#: kebbet-cpt-project.php:72
+#: kebbet-cpt-project.php:74
 msgctxt "Post Type Singular Name"
 msgid "Project"
 msgstr "Projekt"
 
-#: kebbet-cpt-project.php:73
-msgid "Project"
+#: kebbet-cpt-project.php:75
+msgctxt "Menu name"
+msgid "Projects"
 msgstr "Projekt"
 
-#: kebbet-cpt-project.php:74
+#: kebbet-cpt-project.php:76
 msgid "Project-post"
 msgstr "Projektinlägg"
 
-#: kebbet-cpt-project.php:75
+#: kebbet-cpt-project.php:77
 msgid "Parent post:"
 msgstr "Överordnat inlägg:"
 
-#: kebbet-cpt-project.php:76
+#: kebbet-cpt-project.php:78
 msgid "All posts"
 msgstr "Alla inlägg"
 
-#: kebbet-cpt-project.php:77
+#: kebbet-cpt-project.php:79
 msgid "Add new"
 msgstr "Lägg till nytt"
 
-#: kebbet-cpt-project.php:78
+#: kebbet-cpt-project.php:80
 msgid "Add new post"
 msgstr "Lägg till nytt inlägg"
 
-#: kebbet-cpt-project.php:79
+#: kebbet-cpt-project.php:81
 msgid "New post"
 msgstr "Nytt inlägg"
 
-#: kebbet-cpt-project.php:80
+#: kebbet-cpt-project.php:82
 msgid "Edit post"
 msgstr "Redigera inlägg"
 
-#: kebbet-cpt-project.php:81
+#: kebbet-cpt-project.php:83
 msgid "Update post"
 msgstr "Uppdatera inlägg"
 
-#: kebbet-cpt-project.php:82
+#: kebbet-cpt-project.php:84
 msgid "View post"
 msgstr "Visa inlägg"
 
-#: kebbet-cpt-project.php:83
+#: kebbet-cpt-project.php:85
 msgid "View posts"
 msgstr "Visa inlägg"
 
-#: kebbet-cpt-project.php:84
+#: kebbet-cpt-project.php:86
 msgid "Search posts"
 msgstr "Sök inlägg"
 
-#: kebbet-cpt-project.php:85
+#: kebbet-cpt-project.php:87
 msgid "Not found"
 msgstr "Hittade inga inlägg"
 
-#: kebbet-cpt-project.php:86
+#: kebbet-cpt-project.php:88
 msgid "No posts found in Trash"
 msgstr "Inga inlägg hittades i papperskorgen"
 
-#: kebbet-cpt-project.php:88
+#: kebbet-cpt-project.php:90
 msgid "Set featured image"
 msgstr "Ange utvald bild"
 
-#: kebbet-cpt-project.php:89
+#: kebbet-cpt-project.php:91
 msgid "Remove featured image"
 msgstr "Ta bort utvald bild"
 
-#: kebbet-cpt-project.php:90
+#: kebbet-cpt-project.php:92
 msgid "Use as featured image"
 msgstr "Använd som utvald bild"
 
-#: kebbet-cpt-project.php:91
+#: kebbet-cpt-project.php:93
 msgid "Insert into item"
 msgstr "Infoga till inlägg"
 
-#: kebbet-cpt-project.php:92
+#: kebbet-cpt-project.php:94
 msgid "Uploaded to this post"
 msgstr "Uppladdad till detta inlägg"
 
-#: kebbet-cpt-project.php:93
+#: kebbet-cpt-project.php:95
 msgid "Items list"
 msgstr "Objektlista"
 
-#: kebbet-cpt-project.php:94
+#: kebbet-cpt-project.php:96
 msgid "Items list navigation"
 msgstr "Navigering för objektlista"
 
-#: kebbet-cpt-project.php:95
+#: kebbet-cpt-project.php:97
 msgid "Filter items list"
 msgstr "Filtrera objektlista"
 
-#: kebbet-cpt-project.php:96
+#: kebbet-cpt-project.php:98
 msgid "Project-posts archive"
 msgstr "Arkiv för projektinlägg"
 
-#: kebbet-cpt-project.php:97
+#: kebbet-cpt-project.php:99
 msgid "Project-post attributes"
 msgstr "Attribut för projektinlägg"
 
-#: kebbet-cpt-project.php:98
+#: kebbet-cpt-project.php:100
 msgid "Post published"
 msgstr "Inlägget publicerat"
 
-#: kebbet-cpt-project.php:99
+#: kebbet-cpt-project.php:101
 msgid "Post published privately"
 msgstr "Inlägget publicerades privat"
 
-#: kebbet-cpt-project.php:100
+#: kebbet-cpt-project.php:102
 msgid "Post reverted to Draft"
 msgstr "Inlägget återställdes till utkast"
 
-#: kebbet-cpt-project.php:101
+#: kebbet-cpt-project.php:103
 msgid "Post scheduled"
 msgstr "Inlägget schemalagt"
 
-#: kebbet-cpt-project.php:102
+#: kebbet-cpt-project.php:104
 msgid "Post updated"
 msgstr "Inlägget uppdaterades"
 
-#: kebbet-cpt-project.php:104
+#: kebbet-cpt-project.php:106
 msgid "Filter posts by date"
 msgstr "Filtrera inlägg efter datum"
 
-#: kebbet-cpt-project.php:105
+#: kebbet-cpt-project.php:107
 msgid "Project post link"
 msgstr "Länk till projektinlägg"
 
-#: kebbet-cpt-project.php:106
+#: kebbet-cpt-project.php:108
 msgid "A link to a project post"
 msgstr "En länk till ett projektinlägg"
 
-#: kebbet-cpt-project.php:136
+#: kebbet-cpt-project.php:137
 msgid "Project post type"
 msgstr "Inläggstyp för projekt"
 
-#: kebbet-cpt-project.php:137
+#: kebbet-cpt-project.php:138
 msgid "Custom post type for projects"
 msgstr "Anpassad inläggstyp för projekt"
 
-#: kebbet-cpt-project.php:199 kebbet-cpt-project.php:202
+#: kebbet-cpt-project.php:208 kebbet-cpt-project.php:211
 msgid "Post updated."
 msgstr "Inlägget uppdaterades."
 
-#: kebbet-cpt-project.php:200
+#: kebbet-cpt-project.php:209
 msgid "Custom field updated."
 msgstr "Anpassat fält uppdaterat."
 
-#: kebbet-cpt-project.php:201
+#: kebbet-cpt-project.php:210
 msgid "Custom field deleted."
 msgstr "Anpassat fält borttaget."
 
 #. translators: %s: date and time of the revision
-#: kebbet-cpt-project.php:204
+#: kebbet-cpt-project.php:213
 #, php-format
 msgid "Post restored to revision from %s"
 msgstr "Inlägget har återställts till version från %s"
 
-#: kebbet-cpt-project.php:205
+#: kebbet-cpt-project.php:214
 msgid "Post published."
 msgstr "Inlägget publicerat."
 
-#: kebbet-cpt-project.php:206
+#: kebbet-cpt-project.php:215
 msgid "Post saved."
 msgstr "Inlägget sparat."
 
-#: kebbet-cpt-project.php:207
+#: kebbet-cpt-project.php:216
 msgid "Post submitted."
 msgstr "Inlägget inlagt."
 
 #. translators: %1$s: date and time of the scheduled post
-#: kebbet-cpt-project.php:210
+#: kebbet-cpt-project.php:219
 #, php-format
 msgid "Post scheduled for: <strong>%1$s</strong>."
 msgstr "Inlägget är schemalagt till: <strong>%1$s</strong>."
 
-#: kebbet-cpt-project.php:211
+#: kebbet-cpt-project.php:220
 msgid "M j, Y @ G:i"
 msgstr "Y M D @ H:i"
 
-#: kebbet-cpt-project.php:213
+#: kebbet-cpt-project.php:222
 msgid "Post draft updated."
 msgstr "Utkast uppdaterades."
 
-#: kebbet-cpt-project.php:221
+#: kebbet-cpt-project.php:230
 msgid "View Post"
 msgstr "Visa inlägg"
 
-#: kebbet-cpt-project.php:227
+#: kebbet-cpt-project.php:236
 msgid "Preview Post"
 msgstr "Förhandsgranska inlägg"
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:253
-msgid "%$1s post updated."
-msgid_plural "%$2s posts updated."
-msgstr[0] "%$1s inlägg uppdaterat."
-msgstr[1] "%$2s inlägg uppdaterat."
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:262
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s inlägg har uppdaterats."
+msgstr[1] "%s inlägg har uppdaterats."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:255
-msgid "%$1s post not updated, somebody is editing it."
-msgid_plural "%$2s posts not updated, somebody is editing them."
-msgstr[0] "%$1s inlägg uppdaterades inte, någon redigerar det."
-msgstr[1] "%$2s inlägg uppdaterades inte, någon redigerar dem."
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:264
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s inlägg uppdaterades inte, någon redigerar det."
+msgstr[1] "%s inlägg uppdaterades inte, någon redigerar dem."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:257
-msgid "%$1s post permanently deleted."
-msgid_plural "%$2s posts permanently deleted."
-msgstr[0] "%$1s inlägg togs bort permanent."
-msgstr[1] "%$2s inlägg togs bort permanent."
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:266
+#, php-format
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] "%s inlägg togs bort permanent."
+msgstr[1] "%s inlägg togs bort permanent."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:259
-msgid "%$1s post moved to the Trash."
-msgid_plural "%$2s posts moved to the Trash."
-msgstr[0] "%$1s inlägg flyttades till papperskorgen."
-msgstr[1] "%$2s inlägg flyttades till papperskorgen."
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:268
+#, php-format
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] "%s inlägg flyttades till papperskorgen."
+msgstr[1] "%s inlägg flyttades till papperskorgen."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-project.php:261
-msgid "%$1s post restored from the Trash."
-msgid_plural "%$2s posts restored from the Trash."
-msgstr[0] "%$1s inlägg återställdes från papperskorgen."
-msgstr[1] "%$2s inlägg återställdes från papperskorgen."
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-project.php:270
+#, php-format
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] "%s inlägg återställdes från papperskorgen."
+msgstr[1] "%s inlägg återställdes från papperskorgen."
 
-#: kebbet-cpt-project.php:285
+#: kebbet-cpt-project.php:294
 msgid "Project archive settings"
 msgstr "Inställningar för projektarkiv"
 
-#: kebbet-cpt-project.php:286
+#: kebbet-cpt-project.php:295
 msgid "Archive settings for projects"
 msgstr "Arkivinställningar för projekt"
 
 #. Plugin Name of the plugin/theme
 msgid "Kebbet plugins - Custom Post Type: Project"
 msgstr "Kebbet plugins - Anpassad inläggstyp: Projekt"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/kebbet/kebbet-cpt-project"
+msgstr "https://github.com/kebbet/kebbet-cpt-project"
 
 #. Description of the plugin/theme
 msgid "Registers a Custom Post Type."
@@ -297,3 +307,6 @@ msgstr "Erik Betshammar"
 #. Author URI of the plugin/theme
 msgid "https://verkan.se"
 msgstr "https://verkan.se"
+
+#~ msgid "Project"
+#~ msgstr "Projekt"

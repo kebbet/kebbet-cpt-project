@@ -72,7 +72,7 @@ function register() {
 	$labels_args       = array(
 		'name'                     => _x( 'Projects', 'Post Type General Name', 'kebbet-cpt-project' ),
 		'singular_name'            => _x( 'Project', 'Post Type Singular Name', 'kebbet-cpt-project' ),
-		'menu_name'                => __( 'Project', 'kebbet-cpt-project' ),
+		'menu_name'                => _x( 'Projects', 'Menu name', 'kebbet-cpt-project' ),
 		'name_admin_bar'           => __( 'Project-post', 'kebbet-cpt-project' ),
 		'parent_item_colon'        => __( 'Parent post:', 'kebbet-cpt-project' ),
 		'all_items'                => __( 'All posts', 'kebbet-cpt-project' ),
@@ -109,7 +109,6 @@ function register() {
 	);
 
 	$supports_args = array(
-		'author',
 		'title',
 		'editor',
 		'page-attributes',
