@@ -113,6 +113,7 @@ function register() {
 		'title',
 		'editor',
 		'page-attributes',
+		'excerpt',
 	);
 
 	if ( true === THUMBNAIL ) {
