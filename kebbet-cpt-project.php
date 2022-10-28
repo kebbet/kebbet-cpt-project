@@ -3,7 +3,7 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: Project
  * Plugin URI:  https://github.com/kebbet/kebbet-cpt-project
  * Description: Registers a Custom Post Type.
- * Version:     1.2.0
+ * Version:     1.2.1
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
  * Update URI:  false
@@ -174,7 +174,7 @@ function enqueue_scripts( $page ) {
 	$assets_pages = array(
 		'index.php',
 	);
-	if ( in_array( $page, $assets_pages, true ) ) {
+	if ( in_array( $page, $assets_pages, true ) || 'edit-' . POSTTYPE === get_current_screen()->id ) {
 		wp_enqueue_style( POSTTYPE . '_scripts', plugin_dir_url( __FILE__ ) . 'assets/style.css', array(), '1.2.0' );
 	}
 }
