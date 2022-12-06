@@ -71,10 +71,10 @@ function load_textdomain() {
 function register() {
 
 	$labels_args       = array(
-		'name'                     => _x( 'Projects', 'Post Type General Name', 'kebbet-cpt-project' ),
-		'singular_name'            => _x( 'Project', 'Post Type Singular Name', 'kebbet-cpt-project' ),
-		'menu_name'                => _x( 'Projects', 'Menu name', 'kebbet-cpt-project' ),
-		'name_admin_bar'           => __( 'Project-post', 'kebbet-cpt-project' ),
+		'name'                     => _x( 'Front page posts', 'Post Type General Name', 'kebbet-cpt-project' ),
+		'singular_name'            => _x( 'Front page post', 'Post Type Singular Name', 'kebbet-cpt-project' ),
+		'menu_name'                => _x( 'Front page posts', 'Menu name', 'kebbet-cpt-project' ),
+		'name_admin_bar'           => __( 'Front page-post', 'kebbet-cpt-project' ),
 		'parent_item_colon'        => __( 'Parent post:', 'kebbet-cpt-project' ),
 		'all_items'                => __( 'All posts', 'kebbet-cpt-project' ),
 		'add_new_item'             => __( 'Add new', 'kebbet-cpt-project' ),
@@ -87,17 +87,17 @@ function register() {
 		'search_items'             => __( 'Search posts', 'kebbet-cpt-project' ),
 		'not_found'                => __( 'Not found', 'kebbet-cpt-project' ),
 		'not_found_in_trash'       => __( 'No posts found in Trash', 'kebbet-cpt-project' ),
-		'featured_image'           => __( 'Featured image', 'kebbet-cpt-project' ),
-		'set_featured_image'       => __( 'Set featured image', 'kebbet-cpt-project' ),
-		'remove_featured_image'    => __( 'Remove featured image', 'kebbet-cpt-project' ),
-		'use_featured_image'       => __( 'Use as featured image', 'kebbet-cpt-project' ),
+		'featured_image'           => __( 'Icon image', 'kebbet-cpt-project' ),
+		'set_featured_image'       => __( 'Set icon image', 'kebbet-cpt-project' ),
+		'remove_featured_image'    => __( 'Remove icon image', 'kebbet-cpt-project' ),
+		'use_featured_image'       => __( 'Use as icon image', 'kebbet-cpt-project' ),
 		'insert_into_item'         => __( 'Insert into item', 'kebbet-cpt-project' ),
 		'uploaded_to_this_item'    => __( 'Uploaded to this post', 'kebbet-cpt-project' ),
 		'items_list'               => __( 'Items list', 'kebbet-cpt-project' ),
 		'items_list_navigation'    => __( 'Items list navigation', 'kebbet-cpt-project' ),
 		'filter_items_list'        => __( 'Filter items list', 'kebbet-cpt-project' ),
-		'archives'                 => __( 'Project-posts archive', 'kebbet-cpt-project' ),
-		'attributes'               => __( 'Project-post attributes', 'kebbet-cpt-project' ),
+		'archives'                 => __( 'Front page-posts archive', 'kebbet-cpt-project' ),
+		'attributes'               => __( 'Front page-post attributes', 'kebbet-cpt-project' ),
 		'item_published'           => __( 'Post published', 'kebbet-cpt-project' ),
 		'item_published_privately' => __( 'Post published privately', 'kebbet-cpt-project' ),
 		'item_reverted_to_draft'   => __( 'Post reverted to Draft', 'kebbet-cpt-project' ),
@@ -105,15 +105,15 @@ function register() {
 		'item_updated'             => __( 'Post updated', 'kebbet-cpt-project' ),
 		// 5.7 + 5.8
 		'filter_by_date'           => __( 'Filter posts by date', 'kebbet-cpt-project' ),
-		'item_link'                => __( 'Project post link', 'kebbet-cpt-project' ),
-		'item_link_description'    => __( 'A link to a project post', 'kebbet-cpt-project' ),
+		'item_link'                => __( 'Front page post link', 'kebbet-cpt-project' ),
+		'item_link_description'    => __( 'A link to a front page post', 'kebbet-cpt-project' ),
 	);
 
 	$supports_args = array(
 		'title',
 		'editor',
 		'page-attributes',
-		'excerpt',
+		// 'excerpt',
 	);
 
 	if ( true === THUMBNAIL ) {
@@ -142,7 +142,7 @@ function register() {
 		'supports'            => $supports_args,
 		'taxonomies'          => array(),
 		'hierarchical'        => true,
-		'public'              => true,
+		'public'              => false,
 		'show_ui'             => true,
 		'show_in_menu'        => true,
 		'menu_position'       => MENUPOS,
@@ -152,7 +152,7 @@ function register() {
 		'can_export'          => true,
 		'has_archive'         => false,
 		'exclude_from_search' => false,
-		'publicly_queryable'  => true,
+		'publicly_queryable'  => false,
 		'rewrite'             => $rewrite_args,
 		'capabilities'        => $capabilities_args,
 		// Adding map_meta_cap will map the meta correctly.

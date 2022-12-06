@@ -31,7 +31,7 @@ function at_a_glance_items( $items = array() ) {
 			$published = intval( $num_posts->publish );
 			$post_type = get_post_type_object( $type );
 			/* translators: %s: counter of how many posts. */
-			$text      = _n( '%s project post', '%s project posts', $published, 'kebbet-cpt-project' );
+			$text      = _n( '%s front page post', '%s front page posts', $published, 'kebbet-cpt-project' );
 			$text      = sprintf( $text, number_format_i18n( $published ) );
 			$edit_link = 'edit.php?post_type=' . $type;
 			$css_class = $type . '-count';

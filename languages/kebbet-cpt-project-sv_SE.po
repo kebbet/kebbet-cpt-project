@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: Project\n"
-"POT-Creation-Date: 2022-10-28 11:07+0200\n"
-"PO-Revision-Date: 2022-10-28 11:08+0200\n"
+"POT-Creation-Date: 2022-12-05 21:40+0100\n"
+"PO-Revision-Date: 2022-12-05 21:40+0100\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: sv_SE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: kebbet-cpt-project.php\n"
@@ -25,9 +25,9 @@ msgstr ""
 msgid "Last modified"
 msgstr "Senast ändrat"
 
-#: inc/admin-columns.php:40
-msgid "Post image"
-msgstr "Inläggets bild"
+#: inc/admin-columns.php:40 kebbet-cpt-project.php:90
+msgid "Icon image"
+msgstr "Ikon-bild"
 
 #: inc/admin-columns.php:70
 msgid "No image is set."
@@ -36,29 +36,29 @@ msgstr "Ingen bild har ställts in."
 #. translators: %s: counter of how many posts.
 #: inc/at-a-glance.php:34
 #, php-format
-msgid "%s project post"
-msgid_plural "%s project posts"
-msgstr[0] "%s projektinlägg"
-msgstr[1] "%s projektinlägg"
+msgid "%s front page post"
+msgid_plural "%s front page posts"
+msgstr[0] "%s förstasidesinlägg"
+msgstr[1] "%s förstasidesinlägg"
 
 #: kebbet-cpt-project.php:74
 msgctxt "Post Type General Name"
-msgid "Projects"
-msgstr "Projekt"
+msgid "Front page posts"
+msgstr "Inlägg på förstasidan"
 
 #: kebbet-cpt-project.php:75
 msgctxt "Post Type Singular Name"
-msgid "Project"
-msgstr "Projekt"
+msgid "Front page post"
+msgstr "Inlägg på förstasidan"
 
 #: kebbet-cpt-project.php:76
 msgctxt "Menu name"
-msgid "Projects"
-msgstr "Projekt"
+msgid "Front page posts"
+msgstr "Inlägg på förstasidan"
 
 #: kebbet-cpt-project.php:77
-msgid "Project-post"
-msgstr "Projektinlägg"
+msgid "Front page-post"
+msgstr "Förstasides-inlägg"
 
 #: kebbet-cpt-project.php:78
 msgid "Parent post:"
@@ -108,21 +108,17 @@ msgstr "Hittade inga inlägg"
 msgid "No posts found in Trash"
 msgstr "Inga inlägg hittades i papperskorgen"
 
-#: kebbet-cpt-project.php:90
-msgid "Featured image"
-msgstr "Utvald bild"
-
 #: kebbet-cpt-project.php:91
-msgid "Set featured image"
-msgstr "Ange utvald bild"
+msgid "Set icon image"
+msgstr "Ange ikon-bild"
 
 #: kebbet-cpt-project.php:92
-msgid "Remove featured image"
-msgstr "Ta bort utvald bild"
+msgid "Remove icon image"
+msgstr "Ta bort ikon-bild"
 
 #: kebbet-cpt-project.php:93
-msgid "Use as featured image"
-msgstr "Använd som utvald bild"
+msgid "Use as icon image"
+msgstr "Använd som ikon-bild"
 
 #: kebbet-cpt-project.php:94
 msgid "Insert into item"
@@ -145,12 +141,12 @@ msgid "Filter items list"
 msgstr "Filtrera objektlista"
 
 #: kebbet-cpt-project.php:99
-msgid "Project-posts archive"
-msgstr "Arkiv för projektinlägg"
+msgid "Front page-posts archive"
+msgstr "Arkiv för förstasides-inlägg"
 
 #: kebbet-cpt-project.php:100
-msgid "Project-post attributes"
-msgstr "Attribut för projektinlägg"
+msgid "Front page-post attributes"
+msgstr "Attribut för förstasides-inlägg"
 
 #: kebbet-cpt-project.php:101
 msgid "Post published"
@@ -177,12 +173,12 @@ msgid "Filter posts by date"
 msgstr "Filtrera inlägg efter datum"
 
 #: kebbet-cpt-project.php:108
-msgid "Project post link"
-msgstr "Länk till projektinlägg"
+msgid "Front page post link"
+msgstr "Länk till förstasides-inlägg"
 
 #: kebbet-cpt-project.php:109
-msgid "A link to a project post"
-msgstr "En länk till ett projektinlägg"
+msgid "A link to a front page post"
+msgstr "En länk till ett förstasides-inlägg"
 
 #: kebbet-cpt-project.php:139
 msgid "Project post type"
@@ -311,3 +307,27 @@ msgstr "Erik Betshammar"
 #. Author URI of the plugin/theme
 msgid "https://verkan.se"
 msgstr "https://verkan.se"
+
+#, php-format
+#~ msgid "%s project post"
+#~ msgid_plural "%s project posts"
+#~ msgstr[0] "%s projektinlägg"
+#~ msgstr[1] "%s projektinlägg"
+
+#~ msgid "Post image"
+#~ msgstr "Inläggets bild"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Projects"
+#~ msgstr "Projekt"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Project"
+#~ msgstr "Projekt"
+
+#~ msgctxt "Menu name"
+#~ msgid "Projects"
+#~ msgstr "Projekt"
+
+#~ msgid "Project-post"
+#~ msgstr "Projektinlägg"
