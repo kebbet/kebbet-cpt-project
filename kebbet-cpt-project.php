@@ -36,7 +36,7 @@ function init() {
 	if ( true === THUMBNAIL ) {
 		add_theme_support( 'post-thumbnails' );
 	}
-	add_action( 'admin_enqueue_scripts', __NAMESPACE__ .'\enqueue_scripts' );
+	add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\enqueue_scripts' );
 }
 add_action( 'init', __NAMESPACE__ . '\init', 0 );
 
@@ -70,7 +70,7 @@ function load_textdomain() {
  */
 function register() {
 
-	$labels_args       = array(
+	$labels_args = array(
 		'name'                     => _x( 'Front page posts', 'Post Type General Name', 'kebbet-cpt-project' ),
 		'singular_name'            => _x( 'Front page post', 'Post Type Singular Name', 'kebbet-cpt-project' ),
 		'menu_name'                => _x( 'Front page posts', 'Menu name', 'kebbet-cpt-project' ),
@@ -128,11 +128,11 @@ function register() {
 	);
 	$capabilities_args = array(
 		'edit_post'          => 'edit_' . POSTTYPE,
-		'edit_posts'         => 'edit_' . POSTTYPE .'s',
-		'edit_others_posts'  => 'edit_others_' . POSTTYPE .'s',
-		'publish_posts'      => 'publish_' . POSTTYPE .'s',
-		'read_post'          => 'read_' . POSTTYPE .'s',
-		'read_private_posts' => 'read_private_' . POSTTYPE .'s',
+		'edit_posts'         => 'edit_' . POSTTYPE . 's',
+		'edit_others_posts'  => 'edit_others_' . POSTTYPE . 's',
+		'publish_posts'      => 'publish_' . POSTTYPE . 's',
+		'read_post'          => 'read_' . POSTTYPE . 's',
+		'read_private_posts' => 'read_private_' . POSTTYPE . 's',
 		'delete_post'        => 'delete_' . POSTTYPE,
 	);
 	$post_type_args    = array(
@@ -190,22 +190,22 @@ function add_custom_capabilities() {
 
 	// Add custom capabilities.
 	$admins->add_cap( 'edit_' . POSTTYPE );
-	$admins->add_cap( 'edit_' . POSTTYPE .'s' );
-	$admins->add_cap( 'edit_others_' . POSTTYPE .'s' );
-	$admins->add_cap( 'publish_' . POSTTYPE .'s' );
-	$admins->add_cap( 'read_' . POSTTYPE .'s' );
-	$admins->add_cap( 'read_private_' . POSTTYPE .'s' );
+	$admins->add_cap( 'edit_' . POSTTYPE . 's' );
+	$admins->add_cap( 'edit_others_' . POSTTYPE . 's' );
+	$admins->add_cap( 'publish_' . POSTTYPE . 's' );
+	$admins->add_cap( 'read_' . POSTTYPE . 's' );
+	$admins->add_cap( 'read_private_' . POSTTYPE . 's' );
 	$admins->add_cap( 'delete_' . POSTTYPE );
 
 	$editor->add_cap( 'edit_' . POSTTYPE );
-	$editor->add_cap( 'edit_' . POSTTYPE .'s' );
-	$editor->add_cap( 'edit_others_' . POSTTYPE .'s' );
-	$editor->add_cap( 'publish_' . POSTTYPE .'s' );
-	$editor->add_cap( 'read_' . POSTTYPE .'s' );
-	$editor->add_cap( 'read_private_' . POSTTYPE .'s' );
+	$editor->add_cap( 'edit_' . POSTTYPE . 's' );
+	$editor->add_cap( 'edit_others_' . POSTTYPE . 's' );
+	$editor->add_cap( 'publish_' . POSTTYPE . 's' );
+	$editor->add_cap( 'read_' . POSTTYPE . 's' );
+	$editor->add_cap( 'read_private_' . POSTTYPE . 's' );
 	$editor->add_cap( 'delete_' . POSTTYPE );
 }
-add_action( 'admin_init', __NAMESPACE__ . '\add_custom_capabilities');
+add_action( 'admin_init', __NAMESPACE__ . '\add_custom_capabilities' );
 
 /**
  * Post type update messages.
@@ -309,13 +309,15 @@ if ( true === ARCHIVE_OPT && function_exists( 'acf_add_options_page' ) ) {
 	 * Add an option page for the post type.
 	 */
 	function add_options_page() {
-		acf_add_options_sub_page( array(
-			'page_title' => __( 'Project archive settings', 'kebbet-cpt-project' ),
-			'menu_title' => __( 'Archive settings for projects', 'kebbet-cpt-project' ),
-			'parent'     => 'edit.php?post_type=' . POSTTYPE,
-			'post_id'    => POSTTYPE,
-			'slug'       => 'options', // Since title is translated.
-		) );
+		acf_add_options_sub_page(
+			array(
+				'page_title' => __( 'Project archive settings', 'kebbet-cpt-project' ),
+				'menu_title' => __( 'Archive settings for projects', 'kebbet-cpt-project' ),
+				'parent'     => 'edit.php?post_type=' . POSTTYPE,
+				'post_id'    => POSTTYPE,
+				'slug'       => 'options', // Since title is translated.
+			)
+		);
 	}
 	add_action( 'acf/init', __NAMESPACE__ . '\add_options_page' );
 }
